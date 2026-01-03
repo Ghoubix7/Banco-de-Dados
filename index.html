@@ -8,25 +8,27 @@
 <body>
 
   <h2>Responda rapidinho 👇</h2>
-  <p>Isso leva menos de 10 segundos.</p>
+  <p>Leva menos de 10 segundos.</p>
 
-  <form>
+  <form id="formulario">
     <div>
-      <label>Seu e-mail</label><br>
-      <input type="email" placeholder="seu@email.com" required>
+      <label>E-mail</label><br>
+      <input type="email" id="email" required>
     </div>
 
     <br>
 
     <div>
-      <label>Onde você mora?</label><br>
-      <input type="text" placeholder="Ex: São Paulo - SP" required>
+      <label>Cidade / Estado</label><br>
+      <input type="text" id="local" placeholder="Ex: São Paulo - SP" required>
     </div>
 
     <br>
 
     <button type="submit">Enviar</button>
   </form>
+
+  <script type="module" src="script.js"></script>
 
 </body>
 </html>
